@@ -11,6 +11,7 @@
 		8E83C0F02956135B00F8194C /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */; };
 		8E83C0F22956135B00F8194C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E83C0F12956135B00F8194C /* Assets.xcassets */; };
 		8E83C0F52956135B00F8194C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E83C0F42956135B00F8194C /* Preview Assets.xcassets */; };
+		8E83C0FC2956540900F8194C /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E83C0FB2956540900F8194C /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		8E83C0F12956135B00F8194C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E83C0F42956135B00F8194C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E83C0FB2956540900F8194C /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8E83C0ED2956135B00F8194C /* BarcodeScannerApp.swift */,
 				8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */,
+				8E83C0FB2956540900F8194C /* ScannerVC.swift */,
 				8E83C0F12956135B00F8194C /* Assets.xcassets */,
 				8E83C0F32956135B00F8194C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E83C0FC2956540900F8194C /* ScannerVC.swift in Sources */,
 				8E83C0F02956135B00F8194C /* BarcodeScannerView.swift in Sources */,
 				8E83C0EE2956135B00F8194C /* BarcodeScannerApp.swift in Sources */,
 			);
