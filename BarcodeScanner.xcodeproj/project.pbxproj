@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E244D8E295711B500A0C5EE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E244D8D295711B500A0C5EE /* ScannerView.swift */; };
 		8E83C0EE2956135B00F8194C /* BarcodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E83C0ED2956135B00F8194C /* BarcodeScannerApp.swift */; };
 		8E83C0F02956135B00F8194C /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */; };
 		8E83C0F22956135B00F8194C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E83C0F12956135B00F8194C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E244D8D295711B500A0C5EE /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		8E83C0EA2956135B00F8194C /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E83C0ED2956135B00F8194C /* BarcodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerApp.swift; sourceTree = "<group>"; };
 		8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		8E83C0EC2956135B00F8194C /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				8E244D8D295711B500A0C5EE /* ScannerView.swift */,
 				8E83C0ED2956135B00F8194C /* BarcodeScannerApp.swift */,
 				8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */,
 				8E83C0FB2956540900F8194C /* ScannerVC.swift */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E83C0FC2956540900F8194C /* ScannerVC.swift in Sources */,
+				8E244D8E295711B500A0C5EE /* ScannerView.swift in Sources */,
 				8E83C0F02956135B00F8194C /* BarcodeScannerView.swift in Sources */,
 				8E83C0EE2956135B00F8194C /* BarcodeScannerApp.swift in Sources */,
 			);
@@ -271,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = BG99P228ND;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME): camera needed to scan barcodes";
@@ -300,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = BG99P228ND;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME): camera needed to scan barcodes";
