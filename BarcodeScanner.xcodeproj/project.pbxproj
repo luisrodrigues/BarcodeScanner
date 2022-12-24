@@ -55,9 +55,9 @@
 		8E83C0EC2956135B00F8194C /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				8E244D8D295711B500A0C5EE /* ScannerView.swift */,
 				8E83C0ED2956135B00F8194C /* BarcodeScannerApp.swift */,
 				8E83C0EF2956135B00F8194C /* BarcodeScannerView.swift */,
+				8E244D8D295711B500A0C5EE /* ScannerView.swift */,
 				8E83C0FB2956540900F8194C /* ScannerVC.swift */,
 				8E83C0F12956135B00F8194C /* Assets.xcassets */,
 				8E83C0F32956135B00F8194C /* Preview Content */,
